@@ -43,7 +43,7 @@ const Header = () => {
             <div className="flex h-5 items-center">
                 {pageName !== "video" && (
                     <div
-                        className="flex md:hidden md:mr-6 cursor-pointer items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]"
+                        className="flex  md:mr-6 cursor-pointer items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]"
                         onClick={mobileMenuToggle}
                     >
                         {mobileMenu ? (
@@ -55,15 +55,15 @@ const Header = () => {
                 )}
                 <Link to="/" className="flex h-5 items-center">
                     <img
-                        className="h-full hidden dark:md:block"
+                        className="h-full dark:md:block"
                         src={ytLogo}
                         alt="Youtube"
                     />
-                    <img
+                    {/* <img
                         className="h-full md:hidden"
                         src={ytLogoMobile}
                         alt="Youtube"
-                    />
+                    /> */}
                 </Link>
             </div>
             <div className="group flex items-center">
@@ -97,7 +97,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-                    <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" />
+                    <img src="https://yt3.ggpht.com/yti/AOXPAcVxl_VZiOPQrinoLPCIQSSh-6Gc9U986lQCog=s88-c-k-c0x00ffffff-no-rj" />
                 </div>
             </div>
         </div>
